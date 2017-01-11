@@ -8,7 +8,7 @@ namespace TDD_TEST
 {
     public class MyCalculator
     {
-        public List<int> add(string property,int num, List<Product> items)
+        public List<int> add<T>(string property,int num, List<T> items)
         {
             List<int> output = new List<int> { };
 
